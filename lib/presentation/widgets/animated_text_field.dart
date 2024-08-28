@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/animated_horizontal_stick.dart';
-import 'package:yelwinoo/presentation/widgets/animated_slide_box.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/widgets/animated_horizontal_stick.dart';
+import 'package:mustkeem/presentation/widgets/animated_slide_box.dart';
 
 import '../configs/configs.dart';
 

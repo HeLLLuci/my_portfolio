@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "yelwinoo" "\0"
+            VALUE "FileDescription", "mustkeem" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "yelwinoo" "\0"
+            VALUE "InternalName", "mustkeem" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "yelwinoo.exe" "\0"
-            VALUE "ProductName", "yelwinoo" "\0"
+            VALUE "OriginalFilename", "mustkeem.exe" "\0"
+            VALUE "ProductName", "mustkeem" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/configs/constant_sizes.dart';
+import 'package:mustkeem/presentation/configs/constant_sizes.dart';
 
 enum SlidePosition { left, right, bottom, top }
 

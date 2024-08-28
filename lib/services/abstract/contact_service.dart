@@ -1,4 +1,4 @@
-import 'package:yelwinoo/data/model/contact.dart';
+import 'package:mustkeem/data/model/contact.dart';
 
 abstract class ContactService{
   Future<void> sendMessage(Contact contact);

@@ -1,12 +1,10 @@
 import 'dart:math';
-
-import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/data/model/quote.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:mustkeem/data/model/quote.dart';
+import 'package:mustkeem/presentation/configs/configs.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/widgets/widgets.dart';
 
 import 'widgets/footer_path.dart';
 
@@ -262,8 +260,8 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
       Text(
         ksContactInfo,
         style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-              color: _footerForegroundColor,
-            ),
+          color: _footerForegroundColor,
+        ),
       ),
       <Widget>[
         Icon(
@@ -275,8 +273,8 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
         Text(
           ksWorkEmail,
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: _footerForegroundColor,
-              ),
+            color: _footerForegroundColor,
+          ),
         ),
       ]
           .addRow(mainAxisSize: MainAxisSize.min)
@@ -291,8 +289,8 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
         Text(
           ksWorkPhone,
           style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                color: kSecondary,
-              ),
+            color: kSecondary,
+          ),
         ),
       ].addRow(mainAxisSize: MainAxisSize.min),
       verticalSpaceMedium,
@@ -308,63 +306,12 @@ class _FooterPageState extends State<FooterPage> with TickerProviderStateMixin {
         mainAxisSize: MainAxisSize.min,
       ),
       context.adaptive(noSpace, const Spacer()),
-      Text(
-        ksCreditTo,
-        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-              color: _footerForegroundColor,
-            ),
-      ),
-      <Widget>[
-        <Widget>[
-          horizontalSpaceMassive,
-          Icon(
-            Atlas.star_trophy_achievement,
-            color: _footerForegroundColor,
-            size: s14,
-          ),
-          horizontalSpaceMedium,
-          Text(
-            ksDavidCobbina,
-            style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  color: _footerForegroundColor,
-                  decorationStyle: TextDecorationStyle.dotted,
-                  decoration: TextDecoration.underline,
-                  decorationColor: _footerForegroundColor,
-                  decorationThickness: s4,
-                ),
-          ),
-        ]
-            .addRow(mainAxisSize: MainAxisSize.min)
-            .addInkWell(onTap: ksDavidCobbinaWebsite.launchWebsite),
-        <Widget>[
-          horizontalSpaceMassive,
-          Icon(
-            kiCredit,
-            color: _footerForegroundColor,
-            size: s14,
-          ),
-          horizontalSpaceMedium,
-          Text(
-            ksJuliusG,
-            style: context.bodyMedium.copyWith(
-              color: _footerForegroundColor,
-              decorationStyle: TextDecorationStyle.dotted,
-              decoration: TextDecoration.underline,
-              decorationColor: _footerForegroundColor,
-              decorationThickness: s4,
-            ),
-          ),
-        ]
-            .addRow(mainAxisSize: MainAxisSize.min)
-            .addInkWell(onTap: ksJuliusGWebsite.launchWebsite),
-      ].addColumn(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min),
     ].addColumn(
       mainAxisSize: MainAxisSize.min,
       crossAxisAlignment: CrossAxisAlignment.start,
     );
   }
+
 
   Widget _madeWithFlutterLabel() {
     return <Widget>[

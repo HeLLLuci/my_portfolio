@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
 import 'wave_path.dart';

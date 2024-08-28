@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
 
 class WavePath extends StatelessWidget {
   const WavePath({

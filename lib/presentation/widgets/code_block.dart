@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:type_text/type_rich_text.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
 
 import '../configs/configs.dart';
 

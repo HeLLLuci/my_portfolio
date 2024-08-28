@@ -1,8 +1,8 @@
 import 'package:atlas_icons/atlas_icons.dart';
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/data/model/certificate.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/data/model/certificate.dart';
+import 'package:mustkeem/presentation/configs/configs.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
 
 class CertificateCard extends StatelessWidget {
   const CertificateCard({

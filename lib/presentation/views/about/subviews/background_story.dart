@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:visibility_detector/visibility_detector.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
-import 'package:yelwinoo/presentation/widgets/widgets.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/widgets/widgets.dart';
 
 import '../../../configs/configs.dart';
-import 'awards_and_activities.dart';
 import 'background_info.dart';
 import 'tools_and_technologies.dart';
 
@@ -138,11 +137,6 @@ class _BackgroundStoryState extends State<BackgroundStory>
           ),
           context.percentSizedBox(
             pHeight: s3,
-          ),
-          AwardsAndActivities(
-            stickController: _stick3Controller,
-            textController: _text3Controller,
-            infoController: _awardController,
           ),
         ]
             .addColumn(

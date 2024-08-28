@@ -1,15 +1,15 @@
 import 'package:atlas_icons/atlas_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:yelwinoo/data/model/activity.dart';
-import 'package:yelwinoo/data/model/certificate.dart';
-import 'package:yelwinoo/data/model/experience.dart';
-import 'package:yelwinoo/data/model/project_info.dart';
-import 'package:yelwinoo/data/model/quote.dart';
-import 'package:yelwinoo/data/model/route_model.dart';
-import 'package:yelwinoo/data/model/showcase_project.dart';
-import 'package:yelwinoo/data/model/social_media.dart';
-import 'package:yelwinoo/presentation/configs/configs.dart';
-import 'package:yelwinoo/presentation/route/routes.dart';
+import 'package:mustkeem/data/model/activity.dart';
+import 'package:mustkeem/data/model/certificate.dart';
+import 'package:mustkeem/data/model/experience.dart';
+import 'package:mustkeem/data/model/project_info.dart';
+import 'package:mustkeem/data/model/quote.dart';
+import 'package:mustkeem/data/model/route_model.dart';
+import 'package:mustkeem/data/model/showcase_project.dart';
+import 'package:mustkeem/data/model/social_media.dart';
+import 'package:mustkeem/presentation/configs/configs.dart';
+import 'package:mustkeem/presentation/route/routes.dart';
 
 /// constant strings are prefixed with [ks]
 const String ksFontFamily = "ShantellSans";
@@ -19,13 +19,13 @@ const String ksAiMlEnthusiast = "AI/ML Enthusiast";
 const String ksAiEnthusiast = "ai enthusiast";
 const String ksTechNerd = "a  tech  nerd";
 const String ksFlutterDev = "flutter  dev";
-const String coffeeAddict = "coffee addict";
+const String coffeeAddict = "tea addict";
 const String ksIntrovert = "an introvert";
 const String ksIm = "I'm";
 const String ksIntro = """
-  Hi, I'm Ye Lwin Oo!
+  Hi, I'm Mustkeem Baraskar!
     - a passionate mobile developer
-    - a CDM student from UCSM
+    - a BTech student from SVERI
     - an avid reader
   """;
 const String ksSeeMyWork = "See my work";
@@ -57,29 +57,23 @@ const String ksSlash = "/";
 const String ksLetsWork = "Let's work together!";
 const String ksFreelanceAvailability = "I'm available for Freelancing";
 const String ksContactInfo = "- Contact Info";
-const String ksWorkEmail = "yelwinoo.work@gmail.com";
-const String ksWorkPhone = "+959 976294818";
-const String ksCreditTo = "- Big Thanks";
-const String ksDavidCobbina = "David Cobbina";
-const String ksDavidCobbinaWebsite = "https://davidcobbina.com/";
-const String ksJuliusG = "Design by Julius G";
-const String ksJuliusGWebsite =
-    "https://www.behance.net/gallery/63574251/Personal-Portfolio-Website-Design";
+const String ksWorkEmail = "mustkeembaraskar@gmail.com";
+const String ksWorkPhone = "+91 9021706986";
 const String ksBuildUsing = "Build using ";
 const String ksWithMuch = " with much ";
-const String ksCC = "©️ 2023 Ye Lwin Oo";
+const String ksCC = "©️ 2024 Mustkeem Baraskar";
 const String ksYoung = "When I was young, I was a kid!";
 const String ksNobody = "I'm NOBODY";
 const String ksSpecialization =
-    "I specialize in Mobile Technologies and highly passionate about developing quality applications, open-source works and AI.";
+    "I specialize in Mobile Technologies and highly passionate about developing quality applications and AI.";
 const String ksWhoAmI = 'Who Am I?';
 const String ksWhatILove = "What I Love To Do";
 const String ksBriefAboutMe =
     "Hi! I'm a Front-end Software Engineer who is passionate about emerging Technologies and AI. I have fairly extensive amount of experience in developing high quality applications. I often work on freelance projects.";
 const String ksMyLife =
-    "I was a third year student from the University of Computer Studies, Mandalay, Myanmar. But I dropped out in 2020 because of Military Coup & COVID-19.";
+    "I was a third year student from the SVERI's College of Engineering, Pandharpur, India, when i got my first Internship as Flutter Frontend Developer";
 const String ksProfession =
-    "I started working as a Flutter Developer since 2019. Later, I fell in love with it. I'm eager to contribute in Flutter community. Recently, I've published my first state management package: Pulse-X and animated button library: Pretty Animated Buttons.";
+    "I started working as a Flutter Developer since 2023. Later, I fell in love with it. I'm eager to contribute in Flutter community.";
 
 const String ksMyTools =
     "I use a bunch of tools and technologies to make design and implementation process easier. ";
@@ -92,25 +86,25 @@ final List<String> ksMobileTech = ['Flutter', 'Dart'];
 final List<String> ksWebTech = [
   'HTML',
   'CSS',
-  'Three Js',
   'C',
   'Java',
 ];
 final List<String> ksOtherTech = [
   'Firebase',
   'GraphQL',
-  'Appwrite',
+  'REST API',
   'MongoDB',
   'SQL',
   'Python',
+  'PostgreeSQL',
 ];
 
 const String ksCoding = "Software Engineering";
 const String ksCodingMobile = "Software\nEngineering";
-const String ksCoffee = "Coffee";
+const String ksCoffee = "Tea";
 const String ksReading = "Reading";
-const String ksMusic = "80's,90's Music";
-const String ksMusicMobile = "80's,90's\nMusic";
+const String ksMusic = "90's,00's Music";
+const String ksMusicMobile = "90's,00's\nMusic";
 const String ksMovie = "Movies";
 const String ksExplore = "Exploring more...";
 const String ksExploreMobile = "Exploring\nmore...";
@@ -124,111 +118,50 @@ final List<RouteModel> ksMenu = [
   RouteModel(label: ksContact, route: Routes.contact),
 ];
 
-const String ksAwardsAndActivities = "Awards & Activities";
-const String ksAward = "Award I've won";
-const String ksAwardName = "Design Award by WIT (Web Innovative Talent Award)";
-const String ksAwardLink = "https://witaward.com/result/2020";
-const String ksAwardDetails =
-    """
-- The biggest web development contest in Myanmar ( collaboration with Japan )
-- This project aims for foreigners and Myanmar citizens who are enthusiastic about Myanmar culture, cuisine, handicrafts and who want to pay a visit to famous places in Myanmar and who want to enhance their knowledge about various ethnic groups in Myanmar.
-""";
+
 const String ksActivities = "Activities I've joined";
 final List<Activity> ksActivityList = [
   Activity(
-    title: ksAward,
-    name: ksAwardName,
-    icon: kiTrophy,
-    details: ksAwardDetails,
-    link: ksAwardLink,
-  ),
-  Activity(
     title: ksActivities,
     name:
-        "TFI SCALE Program (Temasek Foundation International Specialists' Community Action andLeadership Exchange Program - Singapore)",
+        "YUKTI Innovation Challenge",
     icon: kiActivity,
     details:
-        "This is a five-week Exchange Program with Singapore Polytechnic ( 3-weeks in Singapore and 2-weeks in Myanmar Learnt data analytics, design thinking and co-operation skills and applied them on the Coffee Farm Project",
+        "YUKTI – National Innovation Repository (NIR) is an initiative of the Ministry of Education (MoE) Government of India and it is implemented by MoE's Innovation Cell and AICTE to build a system of repository of ideas",
   ),
   Activity(
     name:
-        "JST Japan-Asia Youth Program (Sakura Science Exchange Program - Japan)",
+        "AVISHKAR 2023",
     icon: kiActivity,
     details:
-        "This is a 9-days Exchange Program at Miyakonojo College, Miyazaki, Japan\nLearnt basic IOT and made the POINT Traffic Control System ( Traffic lights control system with extended functionalities such as alerts when driver recklessly drive while red light is on )",
+        "It's a Research Competition among all Universities of Maharashtra. This is a Special effort towards the participation of the talented students from rural and urban areas in such a Research Competition.",
   ),
 ];
 
 final List<Experience> ksExperiences = [
   Experience(
-    company: "Simbolo Learning Platform",
-    position: "Flutter Instructor",
+    company: "AIE Technologies Pvt. Ltd.",
+    position: "Flutter Frontend Intern",
     responsibilities: [
-      "Taught over 30 students (batch 1 & batch 2)",
-      "Taught basic Dart Programming Language",
-      "Taught basic Flutter Widgets",
-      "Taught Provider & GetX state managements",
-      "Taught Networking and Local Storage",
-      "Taught Clean Code Principles and 5 Design Patterns",
+      "Developed and integrated animations and wireframes for new UI components, enhancing the user experience and visual appeal.",
+      "Designed and implemented 10+ custom drawers tailored for diverse applications, improving navigation and functionality.",
+      "Collaborated on the integration of 3D characters into the UI, contributing to a more dynamic and engaging interface.",
+      "Worked closely with design teams to translate conceptual wireframes into interactive and visually consistent frontend components.",
     ],
-    startDate: DateTime(2023, 11),
+    startDate: DateTime(2023, 4),
+    endDate: DateTime(2023, 8),
+  ),
+  Experience(
+    company: "Insta ICT Solutions Pvt. Ltd.",
+    position: "Software Developer",
+    responsibilities: [
+      "Led a team through 3 consecutive successful projects, demonstrating strong leadership and project management skills.",
+      "Developed backend architecture and authentication flow for a face recognition-based attendance application, ensuring secure and efficient user verification",
+      "Generated APIs for the admin panel of the attendance project, facilitating seamless data management and user interaction.",
+      "Designed and integrated APIs with the frontend for the BuildIndia real estate application, creating a responsive and user-friendly client interface.",
+    ],
+    startDate: DateTime(2024, 1),
     endDate: DateTime.now(),
-  ),
-  Experience(
-    company: "AYA Inno Labs (AYA Bank)",
-    position: "Senior Flutter Developer",
-    responsibilities: [
-      "Software house of the second largest commercial bank in Myanamar",
-      "Closely collaborated with mobile developers, backend developers, UI/ UX designers and QA team for AYA Pay v3.0 Lite App",
-      """Mainly responsible for 
-        ● Project Architecture
-        ● Authentication flow,
-        ● OCR Scanning,
-        ● Third-party payments,
-        ● Vouchers, Deals & Rewards
-        ● Transaction history
-        """,
-        "Maintain AYA Pay Partner App used by tens of thousands of users", 
-    ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime.now(),
-  ),
-  Experience(
-    company: "Nexus Hub Solution",
-    position: "Mid-Senior Flutter Developer",
-    responsibilities: [
-      "Lead a team of 2 Flutter developers and worked closely with backend developer and UI/UX designers",
-      "Started learning Appwrite, Mobx and dynamic modelling in Flutter",
-      "Contributed in Music Player app, HR Management System and E-commerce app",
-      "Worked closely with UI/UX designer & Backend developer in developing Travel Agency Proprietary System",
-    ],
-    startDate: DateTime(2022, 9),
-    endDate: DateTime(2023, 4),
-  ),
-  Experience(
-    company: "App.com.mm",
-    position: "Mid-Senior Flutter Developer",
-    responsibilities: [
-      "Lead and trained a team of 3 Flutter developers in developing mobile applications",
-      "Contributed features in Blogging app & E-commerce app",
-      "Worked on the delivery service mobile app",
-    ],
-    startDate: DateTime(2022, 5),
-    endDate: DateTime(2022, 9),
-  ),
-  Experience(
-    company: "7r48",
-    position: "Junior Flutter Developer",
-    responsibilities: [
-      "Started learning Flutter, GetX, Provider, Bloc and implementing small projects using Flutter",
-      "Worked closely with senior mobile developer and backend developer to develop Kaung Myat Denti Dental Clinic System mobile app",
-      "Worked on car service management system mobile app",
-      "Architected and implemented small projects such as TOTO lottery prediction app using AI backend using python",
-      "Implemented small python AI projects - Activity Recognition, Driver Drowsiness Detection, Football match prediction, JSON to excel file converter"
-    ],
-    type: JobType.remote,
-    startDate: DateTime(2019, 10),
-    endDate: DateTime(2022, 12),
   ),
 ];
 

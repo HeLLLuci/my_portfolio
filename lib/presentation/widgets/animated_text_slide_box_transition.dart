@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:logger/logger.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
 import 'animated_slide_box.dart';
 
 /// credit to [https://davidcobbina.com] for his amazing artwork 👏🏻👏🏻

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yelwinoo/presentation/utils/extensions/extensions.dart';
+import 'package:mustkeem/presentation/utils/extensions/extensions.dart';
 
 final Color kPrimary = '#F4F4EF'.toColor();
 final Color kSecondary = '#C7D3B6'.toColor();
